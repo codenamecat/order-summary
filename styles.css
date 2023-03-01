@@ -1,3 +1,86 @@
 body {
+    width: 1440px;
+    text-align: center;
     font-family: 'Red Hat Display', sans-serif;
+    background-image: url(pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+}
+.price {
+    display: inline-block;
+    text-align:left;
+    vertical-align: 50%;
+}
+main {
+    background-color: white;
+    width: 450px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.header-photo {
+    width: 450px;
+    border-radius: 10px 10px 0 0;
+}
+h1 {
+    color: hsl(223, 47%, 23%);
+    font-size: 26px;
+    font-weight: 900;
+    margin-top: 40px;
+}
+.intro {
+    width: 285px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 25px;
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 15px;
+}
+.subscription {
+    background-color: hsl(225, 100%, 98%);
+    width: 370px;
+    margin: 0 auto;
+    border-radius: 10px;
+    text-align: left;
+}
+.note-icon {
+    margin: 20px 15px 0 20px;
+}
+h2 {
+    color: hsl(223, 47%, 23%);
+    font-size: 16px;
+    font-weight: 900;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+.plan-price {
+    color:hsl(224, 23%, 55%);
+    margin-top: 0;
+}
+a {
+    color: hsl(245, 75%, 52%);
+    font-weight: bold;
+    margin-left: 100px;
+}
+button {
+    font-family: 'Red Hat Display', sans-serif;
+    width: 370px;
+    font-weight: 700;
+    font-size: 14px;
+}
+.proceed {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 10px hsl(225, 100%, 95%);
+}
+.cancel {
+    background-color: white;
+    color: hsl(224, 23%, 55%);
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 50px;
 }

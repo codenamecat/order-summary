@@ -4,27 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Order Summary Practice</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,700;0,900;1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
     <main>
+        <img src="illustration-hero.svg" class="header-photo">
         <h1>Order Summary</h1>
-        <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+        <p class="intro">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
         
-        <div>
-        <h2>Annual plan</h2>
-        <p>&#36;59.99/year</p>
-        <a href="" target="_blank">Change</a>
+        <div class="subscription">
+            <img src="icon-music.svg" class="note-icon">
+            <div class="price">
+                <h2>Annual plan</h2>
+                <p class="plan-price">&#36;59.99/year</p>
+            </div>
+            <a href="" target="_blank" class="price">Change</a>
         </div>
         <br>
-        <button>Proceed to Payment</button>
+        <button class="proceed">Proceed to Payment</button>
         <br>
-        <button>Cancel Order</button>
+        <button class="cancel">Cancel Order</button>
     </main>
-    
 </body>
 </html>
