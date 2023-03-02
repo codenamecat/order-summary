@@ -7,9 +7,8 @@ body {
     background-color: hsl(225, 100%, 94%);
 }
 .price {
-    display: inline-block;
-    text-align:left;
-    vertical-align: 50%;
+    /* display: inline-block; */
+    text-align: left;
 }
 main {
     background-color: white;
@@ -33,33 +32,50 @@ h1 {
     font-size: 16px;
     line-height: 25px;
     color: hsl(224, 23%, 55%);
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 .subscription {
     background-color: hsl(225, 100%, 98%);
     width: 370px;
     margin: 0 auto;
     border-radius: 10px;
-    text-align: left;
+    /*text-align: left;
+    display: grid;
+    grid-template-columns: 85px 100px 1fr;
+    justify-content: center;
+    align-content: center; */
+    display: grid;
+    grid-template-columns: 85px 180px 1fr;
+    /* justify-content: center;
+    align-content: center;
+    grid-auto-flow: column; */
+  
 }
 .note-icon {
-    margin: 20px 15px 0 20px;
+    margin: 20px;   
 }
 h2 {
     color: hsl(223, 47%, 23%);
     font-size: 16px;
     font-weight: 900;
     margin-bottom: 5px;
-    margin-top: 0;
+    margin-top: 20px;
 }
 .plan-price {
     color:hsl(224, 23%, 55%);
-    margin-top: 0;
+    margin: 0;
 }
 a {
     color: hsl(245, 75%, 52%);
     font-weight: bold;
-    margin-left: 100px;
+    font-size: 14px;
+    /* margin: 20px; */
+    text-align: right;
+    line-height: 80px;
+}
+a:hover {
+    color: hsla(245, 75%, 52%, 0.705);
+    text-decoration: none;
 }
 button {
     font-family: 'Red Hat Display', sans-serif;
@@ -77,10 +93,18 @@ button {
     border-radius: 10px;
     box-shadow: 0 10px 10px 10px hsl(225, 100%, 95%);
 }
+.proceed:hover {
+    background-color: hsla(245, 75%, 52%, 0.705);
+    cursor: pointer;
+}
 .cancel {
     background-color: white;
     color: hsl(224, 23%, 55%);
     border: none;
     border-radius: 10px;
     margin-bottom: 50px;
+}
+.cancel:hover {
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
 }
